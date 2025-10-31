@@ -13,17 +13,21 @@ COPY src/ /app/src/
 # Copy custom static assets
 COPY static/ /app/static/
 
+# Copy custom startup script
+COPY start-automated-savings.sh /app/start-automated-savings.sh
+RUN chmod +x /app/start-automated-savings.sh
+
 # Install any additional Python dependencies
 COPY requirements-custom.txt /app/requirements-custom.txt
 RUN pip install -r requirements-custom.txt || true
 
-# Set custom environment variables
-ENV WEBUI_NAME="Automated Savings AI (Custom)"
+# Set custom environment variables (persisted in Dockerfile)
+ENV WEBUI_NAME="Automated Savings"
 ENV ENABLE_COMMUNITY_SHARING=false
 ENV ABACUS_AI_INTEGRATION=true
 
 # Expose port
 EXPOSE 8080
 
-# Use the original entrypoint from backend directory
-CMD ["bash", "backend/start.sh"]
+# Use our custom startup script to ensure persistence
+CMD ["bash", "/app/start-automated-savings.sh"]
