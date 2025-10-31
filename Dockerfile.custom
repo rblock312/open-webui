@@ -25,5 +25,5 @@ ENV ABACUS_AI_INTEGRATION=true
 # Expose port
 EXPOSE 8080
 
-# Use the original entrypoint
-CMD ["bash", "start.sh"]
+# Use the original entrypoint from backend directory
+CMD ["bash", "backend/start.sh"]
