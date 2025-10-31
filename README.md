@@ -1,23 +1,25 @@
-# Open WebUI 👋
+# Automated Savings.ai 🤖
 
-![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
-![GitHub forks](https://img.shields.io/github/forks/open-webui/open-webui?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/open-webui/open-webui?style=social)
-![GitHub repo size](https://img.shields.io/github/repo-size/open-webui/open-webui)
-![GitHub language count](https://img.shields.io/github/languages/count/open-webui/open-webui)
-![GitHub top language](https://img.shields.io/github/languages/top/open-webui/open-webui)
-![GitHub last commit](https://img.shields.io/github/last-commit/open-webui/open-webui?color=red)
-[![Discord](https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white)](https://discord.gg/5rJgQTnV4s)
-[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/tjbck)
+*A rebranded fork of [Open WebUI](https://github.com/open-webui/open-webui) customized for Automated Savings.ai*
 
-**Open WebUI is an [extensible](https://docs.openwebui.com/features/plugin/), feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**.
+**Automated Savings.ai** is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with built-in inference engine for RAG.
 
-Passionate about open-source AI? [Join our team →](https://careers.openwebui.com/)
+## Branding
 
-![Open WebUI Demo](./demo.gif)
+This fork has been customized with Automated Savings.ai branding:
+- Custom color palette featuring Sky Blue (#66B3FF) and Deep Navy (#0C1831)
+- Automated Savings.ai logos and favicons
+- Inter font family for modern typography
+- Custom CSS styling throughout the application
 
-> [!TIP]  
-> **Looking for an [Enterprise Plan](https://docs.openwebui.com/enterprise)?** – **[Speak with Our Sales Team Today!](mailto:sales@openwebui.com)**
+## About Open WebUI
+
+This project is based on Open WebUI, an open-source AI interface platform. For the original project, visit:
+- Original Repository: [open-webui/open-webui](https://github.com/open-webui/open-webui)
+- Documentation: [docs.openwebui.com](https://docs.openwebui.com)
+- Community: [Discord](https://discord.gg/5rJgQTnV4s)
+
+---
 >
 > Get **enhanced capabilities**, including **custom theming and branding**, **Service Level Agreement (SLA) support**, **Long-Term Support (LTS) versions**, and **more!**
 
