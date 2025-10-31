@@ -1,0 +1,44 @@
+/* Custom CSS for Automated Savings AI branding */
+
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --accent-color: #3b82f6;
+  --success-color: #059669;
+  --warning-color: #d97706;
+  --error-color: #dc2626;
+}
+
+/* Custom header styling */
+.header-brand {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+/* Custom chat message styling */
+.chat-message {
+  border-left: 3px solid var(--accent-color);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+/* Custom button styling */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Custom sidebar styling */
+.sidebar {
+  background: linear-gradient(180deg, #f8fafc, #e2e8f0);
+}
+
+/* Add your custom styles here for Abacus AI to modify */
